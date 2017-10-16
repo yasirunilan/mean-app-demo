@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row" *ngFor="let task of tasks">
+    <div class="card card-block">
+      <h4 class="card-title">{{ task.title }}</h4>
+      <p class="card-text">{{task.isDone}}</p>
+    </div>
+  </div>
+</div>
